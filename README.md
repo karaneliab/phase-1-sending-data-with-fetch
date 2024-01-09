@@ -126,7 +126,12 @@ standard POST requests: the HTTP verb, the headers, and the body.
 ### Add the HTTP Verb
 
 So far, comparing to an HTML form, we've only got the destination URL
-('http://localhost:3000/dogs' in this case). The next thing we need to include
+('http://localhost:3000/
+
+
+
+
+dogs' in this case). The next thing we need to include
 is the HTTP verb. By default, the verb is GET, which is why we can send simple
 GET requests with _only_ a destination URL. To tell `fetch()` that this is a
 POST request, we need to add a `method` property to our `configurationObject`:
